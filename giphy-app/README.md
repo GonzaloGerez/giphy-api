@@ -44,3 +44,19 @@ Follow these steps to set up the project:
 
 8. **Run the project**:
     php artisan serve
+
+# Diagrama de Casos de Uso
+
+![Use Case Diagram](https://app.diagrams.net/#G1jyEItYIM788mauATujv3pixphryrNbm1#%7B%22pageId%22%3A%22b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21%22%7D)
+
+# Diagrama de Clases
+
+![Class Diagram](https://app.diagrams.net/?libs=general;uml#G19EmWR3_QktYGQCPS7XfZDpwxv71F9ItO#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D)
+
+# Diagrama de secuencia
+
+![Secuence Diagram](https://app.diagrams.net/#G1imIz0ERaGiODGkl-xrzXtj0lKjfc8LpN#%7B%22pageId%22%3A%222YBvvXClWsGukQMizWep%22%7D)
+
+# Diagrama entidad relación
+
+![DER](https://app.diagrams.net/?libs=general;er#G1MoyVhIlcksrmJrSUHUtJZj9VaXI82uOP#%7B%22pageId%22%3A%22R2lEEEUBdFMjLlhIrx00%22%7D)
