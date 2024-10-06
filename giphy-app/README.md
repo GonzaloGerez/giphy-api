@@ -60,3 +60,7 @@ Follow these steps to set up the project:
 # Diagrama entidad relación
 
 ![DER](https://app.diagrams.net/?libs=general;er#G1MoyVhIlcksrmJrSUHUtJZj9VaXI82uOP#%7B%22pageId%22%3A%22R2lEEEUBdFMjLlhIrx00%22%7D)
+
+# Postman collection
+
+![Postman Collection](https://drive.google.com/file/d/1xkU6_gWVuqehUNrH4yh4i3xAgUFFgDD8/view?usp=sharing)
