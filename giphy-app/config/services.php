@@ -30,5 +30,9 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'giphy_api'=> [
+        'key' => env('GIPHY_APP_KEY'),
+        'url' => 'https://api.giphy.com/v1/gifs'
+    ]
 
 ];

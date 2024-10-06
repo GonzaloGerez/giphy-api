@@ -2,6 +2,11 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Laravel\Passport\Passport;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\GifController;
+use App\Http\Controllers\FavoriteGifController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,7 +18,12 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::prefix('giphy')->group(function (){
+    Route::post('/register', [UserController::class ,'register']);
+    Route::post('/login', [UserController::class ,'login']);
+    Route::middleware('auth:api')->group(function (){
+        Route::post('/search', [GifController::class, 'search']);
+        Route::post('/searchById', [GifController::class, 'searchById']);
+        Route::post('/addFavorite', [FavoriteGifController::class, 'store']);
+    });
 });
